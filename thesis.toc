@@ -1,7 +1,7 @@
 \contentsline {section}{Title Page}{i}
 \contentsline {section}{Table of Contents}{ii}
-\contentsline {section}{List of Figures}{iii}
-\contentsline {section}{List of Tables}{iv}
+\contentsline {section}{List of Figures}{iv}
+\contentsline {section}{List of Tables}{v}
 \contentsline {chapter}{\numberline {1} Introduction}{1}
 \contentsline {section}{\numberline {1.1}Overview}{1}
 \contentsline {section}{\numberline {1.2}Problem Statement}{2}
@@ -36,4 +36,19 @@
 \contentsline {subsection}{\numberline {3.4.3}Database Layer}{26}
 \contentsline {subsection}{\numberline {3.4.4}System Evaluation}{26}
 \contentsline {section}{\numberline {3.5}Timeline}{27}
-\contentsline {chapter}{ \hskip 3.55em References}{28}
+\contentsline {chapter}{\numberline {4} Data preprocessing \& data-warehouse development}{28}
+\contentsline {section}{\numberline {4.1}Data preprocessing}{28}
+\contentsline {section}{\numberline {4.2}Meta-data extraction}{28}
+\contentsline {section}{\numberline {4.3}Data cleaning}{28}
+\contentsline {section}{\numberline {4.4}Data-warehouse design}{28}
+\contentsline {section}{\numberline {4.5}ETL process}{28}
+\contentsline {chapter}{\numberline {5} Development and evaluation of prediction models}{29}
+\contentsline {section}{\numberline {5.1}Model selection}{29}
+\contentsline {section}{\numberline {5.2}Model training}{29}
+\contentsline {section}{\numberline {5.3}Model Evaluation}{29}
+\contentsline {chapter}{\numberline {6} ICPCR system development and integration}{30}
+\contentsline {section}{\numberline {6.1}System build}{30}
+\contentsline {section}{\numberline {6.2}System integration}{30}
+\contentsline {section}{\numberline {6.3}Dashboard development}{30}
+\contentsline {section}{\numberline {6.4}System evaluation}{30}
+\contentsline {chapter}{ \hskip 3.55em References}{31}
