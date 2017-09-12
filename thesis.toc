@@ -1,0 +1,39 @@
+\contentsline {section}{Title Page}{i}
+\contentsline {section}{Table of Contents}{ii}
+\contentsline {section}{List of Figures}{iii}
+\contentsline {section}{List of Tables}{iv}
+\contentsline {chapter}{\numberline {1} Introduction}{1}
+\contentsline {section}{\numberline {1.1}Overview}{1}
+\contentsline {section}{\numberline {1.2}Problem Statement}{2}
+\contentsline {section}{\numberline {1.3}Objectives}{3}
+\contentsline {section}{\numberline {1.4}Limitations and Scope}{3}
+\contentsline {section}{\numberline {1.5}Thesis Outline}{3}
+\contentsline {chapter}{\numberline {2} Literature Review}{4}
+\contentsline {section}{\numberline {2.1}Customer Churn \& Retention}{4}
+\contentsline {section}{\numberline {2.2}OLAP \& Datawarehouse }{4}
+\contentsline {section}{\numberline {2.3}Data Mining}{5}
+\contentsline {subsection}{\numberline {2.3.1}Supervised Learning}{5}
+\contentsline {subsection}{\numberline {2.3.2}Un-Supervised Learning}{7}
+\contentsline {subsection}{\numberline {2.3.3}Selecting the Right technique}{9}
+\contentsline {subsection}{\numberline {2.3.4}Softwares, Libraries and Servers}{10}
+\contentsline {section}{\numberline {2.4}Model Evaluation Metrics}{13}
+\contentsline {subsection}{\numberline {2.4.1}Holdout technique}{13}
+\contentsline {subsection}{\numberline {2.4.2}k-fold cross validation technique}{13}
+\contentsline {subsection}{\numberline {2.4.3}Sensitivity \& Specificity}{13}
+\contentsline {section}{\numberline {2.5}Review of Selected Research Papers}{15}
+\contentsline {section}{\numberline {2.6}Summary of Selected Research Studies}{16}
+\contentsline {chapter}{\numberline {3} Methodology}{21}
+\contentsline {section}{\numberline {3.1}Research Methodology}{21}
+\contentsline {section}{\numberline {3.2}Data Preprocessing and Datawarehouse Development}{22}
+\contentsline {subsection}{\numberline {3.2.1}Data preprocessing}{22}
+\contentsline {subsection}{\numberline {3.2.2}Datawarehouse development}{22}
+\contentsline {section}{\numberline {3.3}Development and Evaluation of the Prediction Models}{24}
+\contentsline {subsection}{\numberline {3.3.1}Model Design}{24}
+\contentsline {subsection}{\numberline {3.3.2}Model Evaluations}{24}
+\contentsline {section}{\numberline {3.4}System Development \& Evaluation}{25}
+\contentsline {subsection}{\numberline {3.4.1}Presentation Layer}{26}
+\contentsline {subsection}{\numberline {3.4.2}Application Layer}{26}
+\contentsline {subsection}{\numberline {3.4.3}Database Layer}{26}
+\contentsline {subsection}{\numberline {3.4.4}System Evaluation}{26}
+\contentsline {section}{\numberline {3.5}Timeline}{27}
+\contentsline {chapter}{ \hskip 3.55em References}{28}

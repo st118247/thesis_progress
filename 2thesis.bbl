@@ -1,0 +1,495 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{%
+Berson%
+, Smith%
+\BCBL{}\ \BBA{} Thearling%
+}{%
+Berson%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{1999}}%
+}]{%
+Berson:1999:BDM:555454}%
+\APACinsertmetastar{%
+Berson:1999:BDM:555454}%
+Berson, A.%
+, Smith, S.%
+\BCBL{}\ \BBA{} Thearling, K.%
+%
+\newblock{}\BBOP{}1999\BBCP{}.
+\newblock{}\Bem{Building data mining applications for crm}\ (1st\ \BEd).
+\newblock{}McGraw-Hill Professional.
+
+\bibitem[\protect\citeauthoryear{%
+Bhattacharya%
+}{%
+Bhattacharya%
+}{%
+{\protect\APACyear{1998}}%
+}]{%
+bhatt1998custret}%
+\APACinsertmetastar{%
+bhatt1998custret}%
+Bhattacharya, C.~B.%
+%
+\newblock{}\BBOP{}1998\BBCP{}.
+\newblock{}\BBOQ{}When customers are members: Customer retention in paid
+  membership contexts.\BBCQ{}
+\newblock{}\Bem{Journal of the Academy of Marketing Science}, \Bem{26}(1),
+  31-44.
+
+\bibitem[\protect\citeauthoryear{%
+Coussement%
+\ \BBA{} Poel%
+}{%
+Coussement%
+\ \BBA{} Poel%
+}{%
+{\protect\APACyear{2008}}%
+}]{%
+coussement2008churn}%
+\APACinsertmetastar{%
+coussement2008churn}%
+Coussement, K.%
+\BCBT{}\ \BBA{} Poel, D. Van~den.%
+%
+\newblock{}\BBOP{}2008\BBCP{}.
+\newblock{}\BBOQ{}Churn prediction in subscription services: An application of
+  support vector machines while comparing two parameter-selection
+  techniques.\BBCQ{}
+\newblock{}\Bem{Expert systems with applications}, \Bem{34}(1), 313--327.
+
+\bibitem[\protect\citeauthoryear{%
+Cronin%
+, Colleran%
+, Herbert%
+\BCBL{}\ \BBA{} Lewitzky%
+}{%
+Cronin%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{1993}}%
+}]{%
+cronin1993telecommunications}%
+\APACinsertmetastar{%
+cronin1993telecommunications}%
+Cronin, F.~J.%
+, Colleran, E.~K.%
+, Herbert, P.~L.%
+\BCBL{}\ \BBA{} Lewitzky, S.%
+%
+\newblock{}\BBOP{}1993\BBCP{}.
+\newblock{}\BBOQ{}Telecommunications and growth: The contribution of
+  telecommunications infrastructure investment to aggregate and sectoral
+  productivity.\BBCQ{}
+\newblock{}\Bem{Telecommunications policy}, \Bem{17}(9), 677--690.
+
+\bibitem[\protect\citeauthoryear{%
+Dalvi%
+, Khandge%
+, Deomore%
+, Bankar%
+\BCBL{}\ \BBA{} Kanade%
+}{%
+Dalvi%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2016}}%
+}]{%
+7570883}%
+\APACinsertmetastar{%
+7570883}%
+Dalvi, P.~K.%
+, Khandge, S.~K.%
+, Deomore, A.%
+, Bankar, A.%
+\BCBL{}\ \BBA{} Kanade, V.~A.%
+%
+\newblock{}\BBOP{}2016, March\BBCP{}.
+\newblock{}\BBOQ{}Analysis of customer churn prediction in telecom industry
+  using decision trees and logistic regression.\BBCQ{}
+\newblock{}1-4.
+
+\bibitem[\protect\citeauthoryear{%
+Gerpott%
+, Rams%
+\BCBL{}\ \BBA{} Schindler%
+}{%
+Gerpott%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2001}}%
+}]{%
+Gerpott2001}%
+\APACinsertmetastar{%
+Gerpott2001}%
+Gerpott, T.~J.%
+, Rams, W.%
+\BCBL{}\ \BBA{} Schindler, A.%
+%
+\newblock{}\BBOP{}2001, may\BBCP{}.
+\newblock{}\BBOQ{}{Customer retention, loyalty, and satisfaction in the German
+  mobile cellular telecommunications market}.\BBCQ{}
+\newblock{}\Bem{Telecommunications Policy}, \Bem{25}(4), 249--269.
+
+\bibitem[\protect\citeauthoryear{%
+Gibert%
+, S{\`a}nchez-Marr{\`e}%
+\BCBL{}\ \BBA{} Codina%
+}{%
+Gibert%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2010}}%
+}]{%
+gibert2010choosing}%
+\APACinsertmetastar{%
+gibert2010choosing}%
+Gibert, K.%
+, S{\`a}nchez-Marr{\`e}, M.%
+\BCBL{}\ \BBA{} Codina, V.%
+%
+\newblock{}\BBOP{}2010\BBCP{}.
+\newblock{}\BBOQ{}Choosing the right data mining technique: classification of
+  methods and intelligent recommendation.\BBCQ{}
+\newblock{}
+
+\bibitem[\protect\citeauthoryear{%
+Han%
+}{%
+Han%
+}{%
+{\protect\APACyear{1997}}%
+}]{%
+han1997olap}%
+\APACinsertmetastar{%
+han1997olap}%
+Han, J.%
+%
+\newblock{}\BBOP{}1997\BBCP{}.
+\newblock{}\BBOQ{}Olap mining: An integration of olap with data mining.\BBCQ{}
+\newblock{}\Bem{2}, 1--9.
+
+\bibitem[\protect\citeauthoryear{%
+{karpathy@cs.stanford.edu}%
+}{%
+{karpathy@cs.stanford.edu}%
+}{%
+{\protect\APACyear{{\protect\bibnodate{}}}}%
+}]{%
+neuralnetwork}%
+\APACinsertmetastar{%
+neuralnetwork}%
+{karpathy@cs.stanford.edu}.%
+%
+\newblock{}\BBOP{}\bibnodate{}\BBCP{}.
+\newblock{}\Bem{{CS231n Convolutional neural networks for Visual Recognition}.}
+\newblock{}(Accessed: 2017-03-29)
+
+\bibitem[\protect\citeauthoryear{%
+Kylin%
+}{%
+Kylin%
+}{%
+{\protect\APACyear{{\protect\bibnodate{}}}}%
+}]{%
+ApacheKylin}%
+\APACinsertmetastar{%
+ApacheKylin}%
+Kylin, A.%
+%
+\newblock{}\BBOP{}\bibnodate{}, {\APACSortNoop{03}}March\BBCP{}.
+\newblock{}\Bem{Apache kylin | home.}
+\newblock{}\url{http://kylin.apache.org/}.
+\newblock{}(Accessed: 2017-03-27)
+
+\bibitem[\protect\citeauthoryear{%
+Larivi{\`e}re%
+\ \BBA{} Poel%
+}{%
+Larivi{\`e}re%
+\ \BBA{} Poel%
+}{%
+{\protect\APACyear{2005}}%
+}]{%
+lariviere2005predicting}%
+\APACinsertmetastar{%
+lariviere2005predicting}%
+Larivi{\`e}re, B.%
+\BCBT{}\ \BBA{} Poel, D. Van~den.%
+%
+\newblock{}\BBOP{}2005\BBCP{}.
+\newblock{}\BBOQ{}Predicting customer retention and profitability by using
+  random forests and regression forests techniques.\BBCQ{}
+\newblock{}\Bem{Expert Systems with Applications}, \Bem{29}(2), 472--484.
+
+\bibitem[\protect\citeauthoryear{%
+Liao%
+\ \BBA{} Chueh%
+}{%
+Liao%
+\ \BBA{} Chueh%
+}{%
+{\protect\APACyear{2011}}%
+}]{%
+liao2011applying}%
+\APACinsertmetastar{%
+liao2011applying}%
+Liao, K.-H.%
+\BCBT{}\ \BBA{} Chueh, H.-E.%
+%
+\newblock{}\BBOP{}2011\BBCP{}.
+\newblock{}\BBOQ{}Applying fuzzy data mining to telecom churn
+  management.\BBCQ{}
+\newblock{}259--264.
+
+\bibitem[\protect\citeauthoryear{%
+Mizerski%
+}{%
+Mizerski%
+}{%
+{\protect\APACyear{1982}}%
+}]{%
+mizerski1982}%
+\APACinsertmetastar{%
+mizerski1982}%
+Mizerski, R.~W.%
+%
+\newblock{}\BBOP{}1982\BBCP{}.
+\newblock{}\BBOQ{}Journal of consumer research.\BBCQ{}
+\newblock{}\Bem{An Attribution Explanation of the Disproportionate Influence of
+  Unfavourable Information}, 301-310.
+
+\bibitem[\protect\citeauthoryear{%
+O%
+, O%
+, O%
+\BCBL{}\ \BBA{} R%
+}{%
+O%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2015}}%
+}]{%
+O2015}%
+\APACinsertmetastar{%
+O2015}%
+O, A.~A.%
+, O, A.~B.%
+, O, A.~I.%
+\BCBL{}\ \BBA{} R, A.~E.%
+%
+\newblock{}\BBOP{}2015\BBCP{}.
+\newblock{}\BBOQ{}{Journal of Emerging Trends in Computing and Information
+  Sciences Modeling {\&} Simulation of a Predictive Customer Churn Model for
+  Telecommunication Industry}.\BBCQ{}
+\newblock{}\Bem{6}(11).
+
+\bibitem[\protect\citeauthoryear{%
+Olle%
+\ \BBA{} Cai%
+}{%
+Olle%
+\ \BBA{} Cai%
+}{%
+{\protect\APACyear{2014}}%
+}]{%
+olle2014hybrid}%
+\APACinsertmetastar{%
+olle2014hybrid}%
+Olle, G. D.~O.%
+\BCBT{}\ \BBA{} Cai, S.%
+%
+\newblock{}\BBOP{}2014\BBCP{}.
+\newblock{}\BBOQ{}A hybrid churn prediction model in mobile telecommunication
+  industry.\BBCQ{}
+\newblock{}\Bem{International Journal of e-Education, e-Business, e-Management
+  and e-Learning}, \Bem{4}(1), 55.
+
+\bibitem[\protect\citeauthoryear{%
+Poel%
+\ \BBA{} Lariviere%
+}{%
+Poel%
+\ \BBA{} Lariviere%
+}{%
+{\protect\APACyear{2004}}%
+}]{%
+van2004customer}%
+\APACinsertmetastar{%
+van2004customer}%
+Poel, D. Van~den%
+\BCBT{}\ \BBA{} Lariviere, B.%
+%
+\newblock{}\BBOP{}2004\BBCP{}.
+\newblock{}\BBOQ{}Customer attrition analysis for financial services using
+  proportional hazard models.\BBCQ{}
+\newblock{}\Bem{European journal of operational research}, \Bem{157}(1),
+  196--217.
+
+\bibitem[\protect\citeauthoryear{%
+{PredictionIO}%
+}{%
+{PredictionIO}%
+}{%
+{\protect\APACyear{{\protect\bibnodate{}}}}%
+}]{%
+PredictionIO}%
+\APACinsertmetastar{%
+PredictionIO}%
+{PredictionIO}.%
+%
+\newblock{}\BBOP{}\bibnodate{}\BBCP{}.
+\newblock{}\Bem{{PredictionIO | A Quick Intro}.}
+\newblock{}(Accessed: 2017-03-27)
+
+\bibitem[\protect\citeauthoryear{%
+Reinartz%
+\ \BBA{} Kumar%
+}{%
+Reinartz%
+\ \BBA{} Kumar%
+}{%
+{\protect\APACyear{2003}}%
+}]{%
+reinartz2003impact}%
+\APACinsertmetastar{%
+reinartz2003impact}%
+Reinartz, W.~J.%
+\BCBT{}\ \BBA{} Kumar, V.%
+%
+\newblock{}\BBOP{}2003\BBCP{}.
+\newblock{}\BBOQ{}The impact of customer relationship characteristics on
+  profitable lifetime duration.\BBCQ{}
+\newblock{}\Bem{Journal of marketing}, \Bem{67}(1), 77--99.
+
+\bibitem[\protect\citeauthoryear{%
+Scikit%
+}{%
+Scikit%
+}{%
+{\protect\APACyear{{\protect\bibnodate{}}}}%
+}]{%
+scikitpython}%
+\APACinsertmetastar{%
+scikitpython}%
+Scikit.%
+%
+\newblock{}\BBOP{}\bibnodate{}\BBCP{}.
+\newblock{}\Bem{Scikit-learn choose the right estimator.}
+\newblock{}url{http://scikit-learn.org/stable/tutorial/machine_learning_map/}.
+\newblock{}(Accessed: 2017-03-27)
+
+\bibitem[\protect\citeauthoryear{%
+{Shiny - by Rstudio}%
+}{%
+{Shiny - by Rstudio}%
+}{%
+{\protect\APACyear{{\protect\bibnodate{}}}}%
+}]{%
+Rshiny}%
+\APACinsertmetastar{%
+Rshiny}%
+{Shiny - by Rstudio}.%
+%
+\newblock{}\BBOP{}\bibnodate{}\BBCP{}.
+\newblock{}\Bem{{Shiny - Scaling and Performance Tuning with shiny apps}.}
+\newblock{}(Accessed: 2017-03-27)
+
+\bibitem[\protect\citeauthoryear{%
+Tsai%
+\ \BBA{} Lu%
+}{%
+Tsai%
+\ \BBA{} Lu%
+}{%
+{\protect\APACyear{2009}}%
+}]{%
+tsai2009customer}%
+\APACinsertmetastar{%
+tsai2009customer}%
+Tsai, C.-F.%
+\BCBT{}\ \BBA{} Lu, Y.-H.%
+%
+\newblock{}\BBOP{}2009\BBCP{}.
+\newblock{}\BBOQ{}Customer churn prediction by hybrid neural networks.\BBCQ{}
+\newblock{}\Bem{Expert Systems with Applications}, \Bem{36}(10), 12547--12553.
+
+\bibitem[\protect\citeauthoryear{%
+{Tutorials Point}%
+}{%
+{Tutorials Point}%
+}{%
+{\protect\APACyear{{\protect\bibnodate{}}}}%
+}]{%
+olapstarschema}%
+\APACinsertmetastar{%
+olapstarschema}%
+{Tutorials Point}.%
+%
+\newblock{}\BBOP{}\bibnodate{}\BBCP{}.
+\newblock{}\Bem{{Data Warehousing Schemas}.}
+\newblock{}(Accessed: 2017-03-31)
+
+\bibitem[\protect\citeauthoryear{%
+Vafeiadis%
+, Diamantaras%
+, Sarigiannidis%
+\BCBL{}\ \BBA{} Chatzisavvas%
+}{%
+Vafeiadis%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2015}}%
+}]{%
+vafeiadis2015comparison}%
+\APACinsertmetastar{%
+vafeiadis2015comparison}%
+Vafeiadis, T.%
+, Diamantaras, K.~I.%
+, Sarigiannidis, G.%
+\BCBL{}\ \BBA{} Chatzisavvas, K.~C.%
+%
+\newblock{}\BBOP{}2015\BBCP{}.
+\newblock{}\BBOQ{}A comparison of machine learning techniques for customer
+  churn prediction.\BBCQ{}
+\newblock{}\Bem{Simulation Modelling Practice and Theory}, \Bem{55}, 1--9.
+
+\bibitem[\protect\citeauthoryear{%
+Wei%
+\ \BBA{} Chiu%
+}{%
+Wei%
+\ \BBA{} Chiu%
+}{%
+{\protect\APACyear{2002}}%
+}]{%
+wei2002turning}%
+\APACinsertmetastar{%
+wei2002turning}%
+Wei, C.-P.%
+\BCBT{}\ \BBA{} Chiu, I.-T.%
+%
+\newblock{}\BBOP{}2002\BBCP{}.
+\newblock{}\BBOQ{}Turning telecommunications call details to churn prediction:
+  a data mining approach.\BBCQ{}
+\newblock{}\Bem{Expert systems with applications}, \Bem{23}(2), 103--112.
+
+\bibitem[\protect\citeauthoryear{%
+Xie%
+, Li%
+, Ngai%
+\BCBL{}\ \BBA{} Ying%
+}{%
+Xie%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2009}}%
+}]{%
+xie2009customer}%
+\APACinsertmetastar{%
+xie2009customer}%
+Xie, Y.%
+, Li, X.%
+, Ngai, E.%
+\BCBL{}\ \BBA{} Ying, W.%
+%
+\newblock{}\BBOP{}2009\BBCP{}.
+\newblock{}\BBOQ{}Customer churn prediction using improved balanced random
+  forests.\BBCQ{}
+\newblock{}\Bem{Expert Systems with Applications}, \Bem{36}(3), 5445--5449.
+
+\end{thebibliography}

@@ -1,0 +1,74 @@
+\setlength{\footskip}{8mm}
+
+\chapter{Introduction}
+
+
+\section{Overview}
+
+In the past two decades, many nations are witnessing growth in telephonic services due to  availability of affordable cellular devices and increasing fidelity of mobile services. Major policies of deregulation by governments have encouraged private corporations to invest funds and support invention of improved technologies. Telecommunications infrastructure and services are the major contributors to the economic prosperity of any country \shortcite{cronin1993telecommunications}. The telecom industry is largely customer service oriented with goals of loyalty, retention and satisfaction \shortcite{Gerpott2001}. The major source of revenue is from direct selling of cellular and Internet services. The companies involved in delivering the services have invested in expensive infrastructures and software systems.
+\\\\
+Over the period of time most telecom organizations provide almost the same service and similar value proposition to the customer. Companies experience high customer defection when competitors bring in new offers, services and technologies. Incumbent telecom operators face consumer churning on a regular basis.
+\\
+\\
+Profitable telecom companies generally have a large customer base and their databases hold a wealth of information. It has become imperative that company leaders need to look into their own subscriber base and study the trends that can reveal customer behavior. The biggest asset for companies in the services domain is the customer \shortcite{van2004customer}. Thus companies are resorting to data mining techniques and tools to predict customer churn prediction \shortcite{Berson:1999:BDM:555454}. From previous data mining techniques it is inferred that it is more profitable to retain and service existing users than to bring in new subscribers \shortcite{reinartz2003impact}. A small effort to retain customers results in major contributions.
+\\
+\\
+Reports published by TRAI shows the mobile phone subscriptions for each telecom operator in India \shortcite{TRAI-TelecomRegulatoryAuthorityofIndia}. Data accessed from the reports is tabulated as below:
+
+\begin{table}[H]
+%	\centering
+\hskip-1.5cm
+\begin{tabular}{|c|c|c|c|c|c|c|}
+	\hline
+	\multirow{2}{3em}{Operators} & Customer Count & \multicolumn{4}{c|}{Increase or Decrease in Period} & Customer Count\\
+	& in Aug 2016 & Aug - Sep & Sep – Oct & Oct – Nov & Nov – Dec & in Dec 2016\\\hline
+	Airtel & 257 & 2 & 2 & 1 & 2 & 265	\\\hline
+	Vodafone & 200 & 0.5 & 1 & 0.8 & 1.8 & 204	\\\hline
+	Tata Indicom & 58 & - 1 & - 1 & - 1 & - 1.6 & 52	\\\hline
+	Reliance Jio & 0 & 15 & 19 & 16 & 20 & 72	\\\hline
+	
+\end{tabular}
+\caption{Approx. subscriber counts(in millions) of select companies in Indian telecom industry.}
+\label{table:1}
+\end{table}
+
+It can be deduced from this report that ``Tata Indicom'' is continuously loosing customers and ``Airtel'' \& ``Vodafone'' are adding new subscribers at relatively the same rate as they did before. Whereas `` Reliance Jio'', a new entrant is experiencing an extraordinary influx of customers so much so that it almost crossed the numbers held by Tata Indicom in Aug 2016.
+\\
+\\
+This thesis presents an intelligent system which predicts customer churn, helps managers and decision makers to identify the valuable proportion for customer retention strategies. The thesis proposes a system supplemented by a data warehouse on the back-end and a visualizations dashboard as the front-end for decision makers. The predictive model is devised after comparison of prediction performance between Decision tree, Support vector machine and  neural networks. The proposal is to build a single system as opposed to using separate softwares for prediction, data manipulation and displaying performance indicators. 
+
+
+
+\section{Problem Statement}
+
+The telecommunication industry’s income is based primarily on the sale of services to customers. A company’s income can dwindle severely if the mindset of its customers changes. As of this decade we have witnessed a growth of smart-phones and so the need to consume data has increased. Ever so often rivals advertise customer centric plans. Internet service providers are trying to woo customers with free, limited, high speed, unlimited, day only, night only and various other the Internet data campaigns. 
+In the recent history, in Indian telecommunications market, the incumbent operators like Airtel, BSNL, Vodafone, Idea Cellular lost plenty of customers to a new entrant, Reliance Jio. Jio launched its services September 5th 2016. It has been reported that Jio has signed about 72 million customers for its paid services that were free in the past. \shortcite{Reuters}. This shows the loyalty factor among the customers staying with Reliance Jio.
+Thus identification of the correct customer segment and understanding their current and future needs is a proactive decision that needs to be taken by company’s management. If leaders are tardy and resist change, they could leave their customers dry and sulky. This would obviously result in customer defection and ultimately loss in revenue.
+
+\section{Objectives}
+
+The overall objective of the thesis is to develop an intelligent system for churn prediction and customer retention (ICPCR). 
+
+The specific objectives of the thesis are to:
+\begin{enumerate}
+	\item Design models and evaluate their churn prediction performance.
+	\item Build the system of intelligent churn prediction and customer retention system.
+	\item Evaluate the system for reliable performance.
+\end{enumerate}
+
+
+\section{Limitations and Scope}
+There are many models available for churn prediction. The scope of this thesis is to build the system  based on three data mining predictive models viz., Decision tree, Support Vector Machines, Artificial Neural Network tentatively.
+
+\section{Thesis Outline}
+
+The organization of this dissertation is as follows:
+\begin{itemize}
+	\item In Chapter \ref{ch:literature-review}, the literature review is explored.
+	\item In Chapter \ref{ch:methodology}, the methodology is proposed.
+\end{itemize}
+
+%In Chapter \ref{ch:results}, I present the experimental results.
+%Finally, in Chapter \ref{ch:conclusion}, I conclude my thesis.
+
+\FloatBarrier
