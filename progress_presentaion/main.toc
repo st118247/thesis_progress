@@ -1,0 +1,18 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Overview}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Problem Statement}{5}{0}{1}
+\beamer@subsectionintoc {1}{3}{Objectives}{6}{0}{1}
+\beamer@subsectionintoc {1}{4}{Limitations and Scope}{7}{0}{1}
+\beamer@sectionintoc {2}{Literature Review}{8}{0}{2}
+\beamer@subsectionintoc {2}{1}{Customer Churn \& Retention}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{OLAP \& Datawarehouse}{10}{0}{2}
+\beamer@subsectionintoc {2}{3}{Data Mining}{12}{0}{2}
+\beamer@subsectionintoc {2}{4}{Model Evaluation Metrics}{20}{0}{2}
+\beamer@subsectionintoc {2}{5}{Review of Selected Research Papers}{21}{0}{2}
+\beamer@sectionintoc {3}{Methodology}{26}{0}{3}
+\beamer@subsectionintoc {3}{1}{Research Methodology}{27}{0}{3}
+\beamer@subsectionintoc {3}{2}{Data Preprocessing and Datawarehouse Development }{28}{0}{3}
+\beamer@subsectionintoc {3}{3}{Development and Evaluation of the Prediction Models}{29}{0}{3}
+\beamer@subsectionintoc {3}{4}{System Development \& Evaluation}{30}{0}{3}
+\beamer@subsectionintoc {3}{5}{Timeline}{32}{0}{3}
