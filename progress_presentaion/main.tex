@@ -44,6 +44,8 @@
 %\usetheme{Szeged}
 %\usetheme{Warsaw}
 
+\newcommand\Fontmetadata{\fontsize{8}{7.2}\selectfont}
+
 \usecolortheme{beaver}
 
 %\title{Presentation Title}
@@ -72,7 +74,7 @@
 % - Use the \inst command only if there are several affiliations.
 % - Keep it simple, no one is interested in your street address.
 
-\date{Thesis Proposal, April 2017}
+\date{Thesis Progress, September 2017}
 % - Either use conference name or its abbreviation.
 % - Not really informative to the audience, more for people (including
 %   yourself) who are reading the slides online
@@ -126,7 +128,7 @@
 \end{frame}
 
 \begin{frame}{Overview(contd.)}
-	\includegraphics[scale = 0.35]{figures/introtable.png}
+	\includegraphics[scale = 0.35]{ppt_figures/introtable.png}
 	\begin{itemize}
 		\item TRAI - Telecom regulatory authority of India
 		\item Reports subscribers at end of every month
@@ -202,7 +204,7 @@
 \end{frame}
 
 \begin{frame}{OLAP \& Datawarehouse(contd.)}
-		\includegraphics[width=10cm,height=8cm]{figures/kylin_diagram.png}
+		\includegraphics[width=10cm,height=8cm]{ppt_figures/kylin_diagram.png}
 \end{frame}
 
 \subsection{Data Mining}
@@ -243,11 +245,11 @@
 \small
 \begin{frame}
 	\frametitle{Choosing the Right Data Mining Technique}
-	\includegraphics[width=\columnwidth,height=8cm]{figures/selectionofdatamining.jpeg}
+	\includegraphics[width=\columnwidth,height=8cm]{ppt_figures/selectionofdatamining.jpeg}
 \end{frame}
 
 \begin{frame}{Scikit model selection}
-	\includegraphics[width=\columnwidth,height=8cm]{figures/scikitlearn.png}
+	\includegraphics[width=\columnwidth,height=8cm]{ppt_figures/scikitlearn.png}
 \end{frame}
 \endgroup
 
@@ -276,11 +278,11 @@
 \end{frame}
 
 \begin{frame}{Apache PredictionIO}
-	\includegraphics[width=\textwidth,height=8cm]{figures/predictionioeventsever.png}
+	\includegraphics[width=\textwidth,height=8cm]{ppt_figures/predictionioeventsever.png}
 \end{frame}
 
 \begin{frame}{Shiny Architecture}
-	\includegraphics[width=\textwidth,height=8cm]{figures/shinyscaling.png}
+	\includegraphics[width=\textwidth,height=8cm]{ppt_figures/shinyscaling.png}
 	\end{frame}
 	
 	
@@ -365,7 +367,7 @@
 \subsection{Research Methodology}
 \begin{frame}{Research Methodology}
 	\begin{figure}
-		\includegraphics[scale = 0.35]{figures/ICPCR.png}
+		\includegraphics[scale = 0.35]{ppt_figures/ICPCR.png}
 		\centering
 		\caption{Research Methodology}
 	\end{figure}
@@ -382,12 +384,12 @@
 \subsection{Data Preprocessing and Datawarehouse Development }
 \begin{frame}{Data Preprocessing and Datawarehouse Development}
 	\begin{figure}[h]
-		\includegraphics[scale = 0.35]{figures/dataloadprocess.png}
+		\includegraphics[scale = 0.35]{ppt_figures/dataloadprocess.png}
 		\centering
 		\caption{Data preprocessing}
 	\end{figure}
 	 \begin{figure}
-	 	\includegraphics[scale = 0.35]{figures/olap_start_schema.jpg}
+	 	\includegraphics[scale = 0.35]{ppt_figures/olap_start_schema.jpg}
 	 	\centering
 	 	\caption{OLAP Star Schema}
 	 \end{figure}
@@ -439,7 +441,7 @@
 	\end{itemize}
 			\column{0.5\textwidth}
 	\begin{figure}
-		\includegraphics[width=7cm,height=7cm]{figures/ICPCR_pic1SystemDesign}
+		\includegraphics[width=7cm,height=7cm]{ppt_figures/ICPCR_pic1SystemDesign}
 		\centering
 	\end{figure}
 		\end{columns}
@@ -447,7 +449,7 @@
 
 \begin{frame}{The Intelligent Churn Prediction Architecture}
 	\begin{figure}[h]
-		\includegraphics[width=9cm,height=7cm]{figures/ICPCR_pic1SystemDesign}
+		\includegraphics[width=9cm,height=7cm]{ppt_figures/ICPCR_pic1SystemDesign}
 		\centering
 	\end{figure}
 \end{frame}
@@ -455,71 +457,296 @@
 \subsection{Timeline}
 \begin{frame}{Timeline}
 \begin{figure}
-	\includegraphics[width=13cm, height=8cm]{figures/churngantt3.png} 
+	\includegraphics[width=13cm, height=8cm]{ppt_figures/churngantt3.png} 
 %  	\centering
   \end{figure}
 \end{frame}
+
+%------------------------------------------------Section
+\section{Progress}
+
+\subsection{Data Collection}
+\begin{frame}{Data Collection}
+	\begin{itemize}
+		\item Churn data taken from the SGI Machine learning repository
+		\item Dataset has 21 Dimensions
+		\item Data has 5000 records of data
+	\end{itemize}	
+\end{frame}
+\begin{frame}{Meta-Data}
+	\Fontmetadata
+	\begin{table}[]
+		\centering
+		\caption{Variable descriptions}
+		\label{var-1}
+		\begin{tabular}{llll}
+			\hline
+			SNo & Name of Variable & Description            & Type                \\
+			\hline
+			1 & State            & state`s of USA           & discrete            \\
+			2 & Account Length   & months of active usage & continuous  \\
+			3 & Area code        & area code for phone  & continuous          \\
+			4 & Phone number     & phone number  & discrete           \\
+			5 & voice mail plan & Subscribed to voice mail & discrete   \\
+			6 & number vmail messages & number of voice-mail messages &  continuous   \\
+			7 & international plan & Subscribed to international plan &  discrete   \\
+			8 & total intl minutes &  total number of international calls  &  continuous   \\
+			9 & total intl calls & total charge of international calls &  continuous   \\
+			10 & total intl charge & total charge of international calls                       &  continuous   \\
+			\hline
+		\end{tabular}
+
+	\end{table}
+\end{frame}
+\begin{frame}{Meta-Data}
+	\Fontmetadata
+
+	\begin{table}[]
+
+%		\centering
+		\caption{Variable descriptions}
+		\label{var-2}
+		\hspace*{-0.5cm}		\begin{tabular}{llll}
+			\hline
+			SNo & Name of Variable & Description            & Type                \\
+			\hline
+			11 & total day minutes &  total minutes of day calls  &  continuous   \\
+			12 & total day calls & total number of day calls &  continuous   \\
+			13 & total day charge & total charge of day calls &  continuous   \\
+			14 & total eve minutes & total minutes of evening calls &  continuous   \\
+			15 & total eve calls & total number of evening call  &  continuous   \\
+			16 & total eve charge & total charge of evening calls  &  continuous   \\
+			17 & total night minutes & total minutes of night call &  continuous   \\
+			18 & total night calls & total number of night calls &  continuous   \\
+			19 & total night charge & total charge of night calls  &  continuous   \\
+			20 & number customer service calls & number of calls to customer service &  continuous   \\
+			21 & churn value & if customer churned or not & discrete \\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{frame}
+\begin{frame}{Data evaluation}
+	Churn data statistics
+	\begin{figure}
+		\hspace*{-1cm}\includegraphics[width=13cm,height=2cm]{ppt_figures/data_summary_1}
+%		\centering
+	\end{figure}
+	\begin{figure}
+		\hspace*{-1cm}\includegraphics[width=13cm,height=2cm]{ppt_figures/data_summary_2}
+	\end{figure}
+
+\end{frame}
+
+\begin{frame}{Data evaluation contd. }
+	\begin{figure}
+		\hspace*{-1cm}\includegraphics[width=13cm,height=2cm]{ppt_figures/data_summary_3}
+	\end{figure}
+\end{frame}
+
+\subsection{Models}
+\begin{frame}{Churn prediction models}
+	\begin{itemize}
+		\item Support Vector Machine trained Linear and Radial models
+		\item Decision Tree trained and predicted with  classification type dt
+		\item Neural networks : Currently still in processing phase. Error with input variable types
+	\end{itemize}
+\end{frame}
+\begin{frame}{Decision Tree 1}
+	\begin{figure}
+		\hspace*{-1cm}
+		\includegraphics[width=13cm,height=10cm]{ppt_figures/churnDecisionTree}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Decision Tree 1 Confusion Matrix}
+	\begin{table}
+		\begin{tabular}{lll}
+						\hline
+						Prediction & False & True \\
+						\hline
+						False & 1266 & 109 \\
+						\hline
+						True & 19 & 106 \\
+						\hline
+		\end{tabular}
+	\end{table}
+\end{frame}
+
+\begin{frame}{Decision Tree 1 Statistics}
+	\begin{table}[]
+		\centering
+		\caption{DT-1 Stats}
+		\label{dt-1-stats}
+		\begin{tabular}{p{5cm}p{1cm}p{5cm}}
+			Accuracy  & : & 0.9146667 \\
+			\hline
+			95\% CI   & : & (0.8993698, 0.9283156) \\ \hline
+			No Information Rate  & : & 0.8566667 \\ \hline
+			P-Value {[}Acc \textgreater NIR{]}  & : & 0.00000000000511805609 \\ \hline
+			Sensitivity  & : & 0.9852140 \\ \hline
+			Specificity  & : & 0.4930233 \\ \hline
+			
+		\end{tabular}
+	\end{table}
+\end{frame}
+\begin{frame}{Decision Tree 2}
+	\begin{figure}
+		\hspace*{-1cm}
+		\includegraphics[width=13cm,height=10cm]{ppt_figures/churnDecisionTree1}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}{Decision Tree 2 Confusion Matrix}
+	\begin{table}
+		\begin{tabular}{lll}
+			\hline
+			Prediction & False & True \\
+			\hline
+			False & 1266 & 68 \\
+			\hline
+			True & 19 & 147 \\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{frame}
+
+\begin{frame}{Decision Tree 2 Statistics}
+	\begin{table}[]
+		\centering
+		\caption{DT-1 Stats}
+		\label{dt-1-stats}
+		\begin{tabular}{p{5cm}p{1cm}p{5cm}}
+			Accuracy  & : & 0.942 \\
+			\hline
+			95\% CI   & : & (0.9289464, 0.9532869) \\ \hline
+			No Information Rate  & : & 0.8566667 \\ \hline
+			P-Value {[}Acc \textgreater NIR{]}  & : & 0.00000000000511805609 \\ \hline
+			Sensitivity  & : & 0.9852140 \\ \hline
+			Specificity  & : & 0.4930233 \\ \hline
+			
+		\end{tabular}
+	\end{table}
+\end{frame}
+
+\begin{frame}{SVM Linear Kernel Stats}
+	\begin{itemize}
+		\item Training sameple : 	3500
+		\item Testing sample : 1500
+		\item 18 predictors
+		\item 2 classes: 'False', 'True' 
+		\item Pre-processing: centered (69), scaled (69) 
+		\item Resampling: Cross-Validated (10 fold, repeated 3 times) 
+%		\item Summary of sample sizes: 3150, 3151, 3150, 3150, 3150, 3149, ... 
+		\item Resampling results
+		\begin{itemize}
+			\item Accuracy  0.8595245
+			\item Kappa      0.003825618 
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{SVM Linear Kernel Confusion Matrix}
+	\begin{table}
+		\begin{tabular}{lll}
+			\hline
+			Prediction & False & True \\
+			\hline
+			False & 1285 & 215 \\
+			\hline
+			True & 0 & 0 \\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{frame}
+
+\begin{frame}{SVM Linear Kernel Statistics}
+	\begin{table}[]
+		\centering
+		\caption{SVM Linear Stats}
+		\label{svm-l-stats}
+		\begin{tabular}{p{5cm}p{1cm}p{5cm}}
+			Accuracy  & : & 0.8567 \\
+			\hline
+			95\% CI   & : & (0.8379, 0.874) \\ \hline
+			No Information Rate  & : & 0.8567 \\ \hline
+			P-Value {[}Acc \textgreater NIR{]}  & : & 0.5182 \\ \hline
+			Sensitivity  & : & 1 \\ \hline
+			Specificity  & : & 0 \\ \hline
+			
+		\end{tabular}
+	\end{table}
+\end{frame}
+
+\begin{frame}{SVM Radial Kernel Stats}
+	\begin{itemize}
+		\item Training sameple : 	3500
+		\item Testing sample : 1500
+		\item 18 predictors
+		\item 2 classes: 'False', 'True' 
+		\item Pre-processing: centered (69), scaled (69) 
+		\item Resampling: Cross-Validated (10 fold, repeated 3 times) 
+		%		\item Summary of sample sizes: 3150, 3151, 3150, 3150, 3150, 3149, ... 
+		\item Resampling results
+		\begin{itemize}
+			\item Accuracy  0.8594297
+			\item Kappa      0
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{SVM Radial Kernel Confusion Matrix}
+	\begin{table}
+		\begin{tabular}{lll}
+			\hline
+			Prediction & False & True \\
+			\hline
+			False & 1266 & 68 \\
+			\hline
+			True & 19 & 147 \\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{frame}
+
+\begin{frame}{SVM Radial Kernel Statistics}
+	\begin{table}[]
+		\centering
+		\caption{SVM Radial Stats}
+		\label{dt-1-stats}
+		\begin{tabular}{p{5cm}p{1cm}p{5cm}}
+			Accuracy  & : & 0.8566667 \\
+			\hline
+			95\% CI   & : & (0.8379028, 0.8740215) \\ \hline
+			No Information Rate  & : & 0.8566667  \\ \hline
+			P-Value {[}Acc \textgreater NIR{]}  & : &  0.5181819 \\ \hline
+			Sensitivity  & : & 1 \\ \hline
+			Specificity  & : & 0 \\ \hline
+			
+		\end{tabular}
+	\end{table}
+\end{frame}
+% system
+\subsection{Dashboard of ICPCR}
+\begin{frame}{ICPCR}
+	It is a web application.
+	Developed thus far is ui.r and server.r files .
+	\begin{figure}
+		\includegraphics[scale=0.5]{ppt_figures/web_dash_1}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\begin{figure}
+		\includegraphics[width=10cm, height=6cm]{ppt_figures/web_dash_2}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\begin{figure}
+		\includegraphics[width=10cm, height=6cm]{ppt_figures/web_dash_3}
+	\end{figure}
+\end{frame}
+
 \end{document}
-
-
-% Placing a * after \section means it will not show in the
-% outline or table of contents.
-%\section*{Summary}
-%
-%\begin{frame}{Summary}
-%  \begin{itemize}
-%  \item
-%    The \alert{first main message} of your talk in one or two lines.
-%  \item
-%    The \alert{second main message} of your talk in one or two lines.
-%  \item
-%    Perhaps a \alert{third message}, but not more than that.
-%  \end{itemize}
-%  
-%  \begin{itemize}
-%  \item
-%    Outlook
-%    \begin{itemize}
-%    \item
-%      Something you haven't solved.
-%    \item
-%      Something else you haven't solved.
-%    \end{itemize}
-%  \end{itemize}
-%\end{frame}
-
-
-
-% All of the following is optional and typically not needed. 
-%\appendix
-%\section<presentation>*{\appendixname}
-%\subsection<presentation>*{For Further Reading}
-
-%\begin{frame}[allowframebreaks]
-%  \frametitle<presentation>{For Further Reading}
-%    
-%  \begin{thebibliography}{10}
-%    
-%  \beamertemplatebookbibitems
-%  % Start with overview books.
-%
-%  \bibitem{Author1990}
-%    A.~Author.
-%    \newblock {\em Handbook of Everything}.
-%    \newblock Some Press, 1990.
-% 
-%    
-%  \beamertemplatearticlebibitems
-%  % Followed by interesting articles. Keep the list short. 
-%
-%  \bibitem{Someone2000}
-%    S.~Someone.
-%    \newblock On this and that.
-%    \newblock {\em Journal of This and That}, 2(1):50--100,
-%    2000.
-%  \end{thebibliography}
-%\end{frame}
-
-
-
 

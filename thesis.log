@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.3.3)  12 SEP 2017 21:42
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.3.3)  7 OCT 2017 06:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -432,7 +432,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enitdp@description=\count131
 ) (./thesis.aux
 (./frontstuff.aux) (./intro.aux) (./literature.aux) (./methodology.aux)
-(./data_preprocessing.aux) (./prediction_model.aux) (./icpcr_system.aux))
+(./data_preprocessing.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
@@ -494,23 +494,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--1
 
  []
 
-[2
-
-])
+)
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [3] (./thesis.lof)
+ [2
+
+] (./thesis.lof)
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
- [4
+ [3
 
 ] (./thesis.lot)
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
-) [5
+) [4
 
 ]
 \openout2 = `intro.aux'.
@@ -1367,41 +1367,104 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--139
 
  (./data_preprocessing.tex
 \relax \fontsize {14.4}{15}\selectfont {Chapter} 4.
-) [28
-
-
-
-
-]
-\openout2 = `prediction_model.aux'.
-
- (./prediction_model.tex
-\relax \fontsize {14.4}{15}\selectfont {Chapter} 5.
-) [29
-
-
-
-]
-\openout2 = `icpcr_system.aux'.
-
- (./icpcr_system.tex
-\relax \fontsize {14.4}{15}\selectfont {Chapter} 6.
-) [30
-
-
-
-] (./thesis.bbl
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 158.
-
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 7.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
+LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 9.
+
+Overfull \hbox (0.96738pt too wide) in paragraph at lines 9--10
+[]\OT1/ptm/m/n/10.95 Data file \OT1/ptm/m/it/10.95 ``churn.all`` \OT1/ptm/m/n/1
+0.95 at lo-ca-tion $\OT1/pcr/m/sl/10.95 https : / / www . sgi . com / tech / ml
+c / db / churn . all$\OT1/ptm/m/n/10.95 . 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28
+
+
+
+
+] [29]
+Overfull \hbox (21.42549pt too wide) in paragraph at lines 89--113
+ [][] 
+ []
+
+[30] [31] [32]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 155.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 155.
+File: progress_presentaion/ppt_figures/churnDecisionTree.pdf Graphic file (type
+ QTm)
+
+<use  "progress_presentaion/ppt_figures/churnDecisionTree.pdf" >
+Overfull \hbox (45.13004pt too wide) in paragraph at lines 166--168
+[]|  [] 
+ []
+
+[33] [34] [35] [36]
+File: progress_presentaion/ppt_figures/icpcr_1_dash.png Graphic file (type QTm)
+
+
+<use  "progress_presentaion/ppt_figures/icpcr_1_dash.png" >
+Overfull \hbox (162.63766pt too wide) in paragraph at lines 279--281
+[]|  [] 
+ []
+
+[37]
+File: progress_presentaion/ppt_figures/icpcr_2_dash.png Graphic file (type QTm)
+
+ <use  "progress_presentaion/ppt_figures/icpcr_2_dash.png" >
+Overfull \hbox (53.76938pt too wide) in paragraph at lines 287--289
+[]|  [] 
+ []
+
+[38]
+File: progress_presentaion/ppt_figures/icpcr_3_dash.png Graphic file (type QTm)
+
+ <use  "progress_presentaion/ppt_figures/icpcr_3_dash.png" >
+Overfull \hbox (53.76938pt too wide) in paragraph at lines 295--297
+[]|  [] 
+ []
+
+[39]
+File: progress_presentaion/ppt_figures/icpcr_4_dash.png Graphic file (type QTm)
+
+ <use  "progress_presentaion/ppt_figures/icpcr_4_dash.png" >
+Overfull \hbox (53.76938pt too wide) in paragraph at lines 303--305
+[]|  [] 
+ []
+
+[40]
+File: progress_presentaion/ppt_figures/icpcr_5_dash.png Graphic file (type QTm)
+
+ <use  "progress_presentaion/ppt_figures/icpcr_5_dash.png" >
+Overfull \hbox (53.76938pt too wide) in paragraph at lines 311--313
+[]|  [] 
+ []
+
+[41]
+File: progress_presentaion/ppt_figures/icpcr_6_dash.png Graphic file (type QTm)
+
+ <use  "progress_presentaion/ppt_figures/icpcr_6_dash.png" >
+Overfull \hbox (53.76938pt too wide) in paragraph at lines 319--321
+[]|  [] 
+ []
+
+) [42] (./thesis.bbl
 Underfull \hbox (badness 6725) in paragraph at lines 348--355
 \OT1/pcr/m/n/10.95 reuters . com / article / us-[]reliance-[]jio-[]prime-[]idUS
 KBN1722BJ$\OT1/ptm/m/n/10.95 .  (Ac-
  []
 
-[31
+[43
 
 
 ]
@@ -1416,16 +1479,15 @@ Underfull \hbox (badness 3179) in paragraph at lines 400--407
 1/pcr/m/n/10.95 http : / / www . trai . gov . in /
  []
 
-) [32] (./thesis.aux (./frontstuff.aux) (./intro.aux) (./literature.aux)
-(./methodology.aux) (./data_preprocessing.aux) (./prediction_model.aux)
-(./icpcr_system.aux)) ) 
+) [44] (./thesis.aux (./frontstuff.aux) (./intro.aux) (./literature.aux)
+(./methodology.aux) (./data_preprocessing.aux)) ) 
 Here is how much of TeX's memory you used:
- 5602 strings out of 493638
- 80227 string characters out of 6146797
- 190577 words of memory out of 5000000
- 8755 multiletter control sequences out of 15000+600000
- 18534 words of font info for 65 fonts, out of 8000000 for 9000
+ 5634 strings out of 493638
+ 80890 string characters out of 6146797
+ 189411 words of memory out of 5000000
+ 8789 multiletter control sequences out of 15000+600000
+ 18789 words of font info for 66 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 37i,9n,38p,1003b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,10n,38p,1003b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (37 pages).
+Output written on thesis.pdf (48 pages).

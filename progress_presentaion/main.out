@@ -1,17 +1,21 @@
 \BOOKMARK [2][]{Outline0.1}{Introduction}{}% 1
 \BOOKMARK [3][]{Outline0.1.1.3}{Overview}{Outline0.1}% 2
-\BOOKMARK [3][]{Outline0.1.2.5}{Problem Statement}{Outline0.1}% 3
+\BOOKMARK [3][]{Outline0.1.2.5}{Problem\040Statement}{Outline0.1}% 3
 \BOOKMARK [3][]{Outline0.1.3.6}{Objectives}{Outline0.1}% 4
-\BOOKMARK [3][]{Outline0.1.4.7}{Limitations and Scope}{Outline0.1}% 5
-\BOOKMARK [2][]{Outline0.2}{Literature Review}{}% 6
-\BOOKMARK [3][]{Outline0.2.1.9}{Customer Churn \046 Retention}{Outline0.2}% 7
-\BOOKMARK [3][]{Outline0.2.2.10}{OLAP \046 Datawarehouse}{Outline0.2}% 8
-\BOOKMARK [3][]{Outline0.2.3.12}{Data Mining}{Outline0.2}% 9
-\BOOKMARK [3][]{Outline0.2.4.20}{Model Evaluation Metrics}{Outline0.2}% 10
-\BOOKMARK [3][]{Outline0.2.5.21}{Review of Selected Research Papers}{Outline0.2}% 11
+\BOOKMARK [3][]{Outline0.1.4.7}{Limitations\040and\040Scope}{Outline0.1}% 5
+\BOOKMARK [2][]{Outline0.2}{Literature\040Review}{}% 6
+\BOOKMARK [3][]{Outline0.2.1.9}{Customer\040Churn\040&\040Retention}{Outline0.2}% 7
+\BOOKMARK [3][]{Outline0.2.2.10}{OLAP\040&\040Datawarehouse}{Outline0.2}% 8
+\BOOKMARK [3][]{Outline0.2.3.12}{Data\040Mining}{Outline0.2}% 9
+\BOOKMARK [3][]{Outline0.2.4.20}{Model\040Evaluation\040Metrics}{Outline0.2}% 10
+\BOOKMARK [3][]{Outline0.2.5.21}{Review\040of\040Selected\040Research\040Papers}{Outline0.2}% 11
 \BOOKMARK [2][]{Outline0.3}{Methodology}{}% 12
-\BOOKMARK [3][]{Outline0.3.1.27}{Research Methodology}{Outline0.3}% 13
-\BOOKMARK [3][]{Outline0.3.2.28}{Data Preprocessing and Datawarehouse Development }{Outline0.3}% 14
-\BOOKMARK [3][]{Outline0.3.3.29}{Development and Evaluation of the Prediction Models}{Outline0.3}% 15
-\BOOKMARK [3][]{Outline0.3.4.30}{System Development \046 Evaluation}{Outline0.3}% 16
+\BOOKMARK [3][]{Outline0.3.1.27}{Research\040Methodology}{Outline0.3}% 13
+\BOOKMARK [3][]{Outline0.3.2.28}{Data\040Preprocessing\040and\040Datawarehouse\040Development\040}{Outline0.3}% 14
+\BOOKMARK [3][]{Outline0.3.3.29}{Development\040and\040Evaluation\040of\040the\040Prediction\040Models}{Outline0.3}% 15
+\BOOKMARK [3][]{Outline0.3.4.30}{System\040Development\040&\040Evaluation}{Outline0.3}% 16
 \BOOKMARK [3][]{Outline0.3.5.32}{Timeline}{Outline0.3}% 17
+\BOOKMARK [2][]{Outline0.4}{Progress}{}% 18
+\BOOKMARK [3][]{Outline0.4.1.34}{Data\040Collection}{Outline0.4}% 19
+\BOOKMARK [3][]{Outline0.4.2.39}{Models}{Outline0.4}% 20
+\BOOKMARK [3][]{Outline0.4.3.52}{Dashboard\040of\040ICPCR}{Outline0.4}% 21

@@ -1,2 +1,11 @@
 \contentsline {table}{\numberline {1.1}{\ignorespaces Approx. subscriber counts(in millions) of select companies in Indian telecom industry.}}{2}
 \contentsline {table}{\numberline {2.1}{ Previous literature review}}{16}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Variable descriptions}}{28}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Variable descriptions contd.}}{29}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Dimension analysis}}{31}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Decision tree confusion matrix}}{33}
+\contentsline {table}{\numberline {4.5}{\ignorespaces DT-1 Stats}}{33}
+\contentsline {table}{\numberline {4.6}{\ignorespaces SVM Linear confusion matrix}}{35}
+\contentsline {table}{\numberline {4.7}{\ignorespaces SVM Linear Stats}}{35}
+\contentsline {table}{\numberline {4.8}{\ignorespaces SVM Radial confusion matrix}}{36}
+\contentsline {table}{\numberline {4.9}{\ignorespaces SVM Radial Stats}}{36}
