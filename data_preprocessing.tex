@@ -1,7 +1,8 @@
 \setlength{\footskip}{8mm}
 
-\chapter{Progress}
+\chapter{Data preprocessing \& data-warehouse}
 \label{ch:dpdd}
+This chapter presents the progress in data preprocessing and data-warehouse development.
 
 \section{Data collection}
 The data was collected from the open source data available at SGI MLC++ website hosted at : \url{https://www.sgi.com/tech/mlc/db/}. The site has two files suitable for churn prediction. The data was donated to the public domain by Orange telecom.
@@ -10,53 +11,64 @@ The data was collected from the open source data available at SGI MLC++ website 
 	\item Meta-data file \textit{``churn.names``} for the data at location \textit{\url{https://www.sgi.com/tech/mlc/db/churn.names}}
 \end{itemize}
 
+\section{Meta-data evaluation}
+
 The data has 5000 records of call details for customers. Collected over a period of time it lists whether if the customer has churned or retained.
-The data has 21 dimensions. They are described in tables~\ref{var-1} \& \ref{var-2}.
+The data has 19 dimensions. They are described in tables~\ref{var-1} \& \ref{var-2}.
 \begin{table}[h]
 	\centering
-	\caption{Variable descriptions}
+	\caption{Dimension descriptions}
 	\label{var-1}
-	\begin{tabular}{llll}
+	\begin{tabular}{lll}
 		\hline
-		SNo & Name of Variable & Description            & Type                \\
+		Name of Dimension & Description            & Type                \\
 		\hline
-		1 & State            & state`s of USA           & discrete            \\
-		2 & Account Length   & months of active usage & continuous  \\
-		3 & Area code        & area code for phone  & continuous          \\
-		4 & Phone number     & phone number  & discrete           \\
-		5 & voice mail plan & Subscribed to voice mail & discrete   \\
-		6 & number vmail messages & number of voice-mail messages &  continuous   \\
-		7 & international plan & Subscribed to international plan &  discrete   \\
-		8 & total intl minutes &  total number of international calls  &  continuous   \\
-		9 & total intl calls & total charge of international calls &  continuous   \\
-		10 & total intl charge & total charge of international calls                       &  continuous   \\
+		State            & state`s of USA           & discrete            \\
+		Account Length   & months of active usage & continuous  \\
+%		3 & Area code        & area code for phone  & continuous          \\
+%		4 & Phone number     & phone number  & discrete           \\
+		voice mail plan & Subscribed to voice mail & discrete   \\
+		number vmail messages & number of voice-mail messages &  continuous   \\
+		international plan & Subscribed to international plan &  discrete   \\
+		total intl minutes &  total number of international calls  &  continuous   \\
+		total intl calls & total charge of international calls &  continuous   \\
+		total intl charge & total charge of international calls                       &  continuous   \\
 		\hline
 	\end{tabular}
 \end{table}
 \begin{table}[h]
 	\centering
-	\caption{Variable descriptions contd.}
+	\caption{Dimension descriptions contd.}
 	\label{var-2}
-	\begin{tabular}{llll}
+	\begin{tabular}{lll}
 		\hline
-		SNo & Name of Variable & Description            & Type                \\
+		Name of Dimension & Description            & Type                \\
 		\hline
-		11 & total day minutes &  total minutes of day calls  &  continuous   \\
-		12 & total day calls & total number of day calls &  continuous   \\
-		13 & total day charge & total charge of day calls &  continuous   \\
-		14 & total eve minutes & total minutes of evening calls &  continuous   \\
-		15 & total eve calls & total number of evening call  &  continuous   \\
-		16 & total eve charge & total charge of evening calls  &  continuous   \\
-		17 & total night minutes & total minutes of night call &  continuous   \\
-		18 & total night calls & total number of night calls &  continuous   \\
-		19 & total night charge & total charge of night calls  &  continuous   \\
-		20 & number customer service calls & number of calls to customer service &  continuous   \\
-		21 & churn value & if customer churned or not & discrete \\
+		total day minutes &  total minutes of day calls  &  continuous   \\
+		total day calls & total number of day calls &  continuous   \\
+		total day charge & total charge of day calls &  continuous   \\
+		total eve minutes & total minutes of evening calls &  continuous   \\
+		total eve calls & total number of evening call  &  continuous   \\
+		total eve charge & total charge of evening calls  &  continuous   \\
+		total night minutes & total minutes of night call &  continuous   \\
+		total night calls & total number of night calls &  continuous   \\
+		total night charge & total charge of night calls  &  continuous   \\
+		number customer service calls & number of calls to customer service &  continuous   \\
+		churn value & if customer churned or not & discrete \\
 		\hline
 	\end{tabular}
 \end{table}
 
-\section{Data preprocessing and transformation}
+Developing the churn prediction system on publicly available data helps to compare  :
+\begin{itemize}
+	\item results
+	\item ranking techniques
+\end{itemize}
+
+
+\section{Data cleaning}
+
+Data preprocessing and transformation
 
 The data is in csv format and needs to be processed before loading. The data is loaded to the MySQL database for ease of access and retrieval. The data is loaded into table churn for access by R.
 A new data set containing the 5 regions of United States are used   In MySQL a new is introduced which is the regions table. This is an additional data which is acquired from the google open source data. 
@@ -86,42 +98,52 @@ The analysis of the dimensions of the data is as follows in table~\ref{summary-d
 	\centering
 	\caption{Dimension analysis}
 	\label{summary-dim}
-	\begin{tabular}{llllllll}
-		s no & variable & min & 1st Quart & median & mean & 3rd Quart & max \\
-1&state&na&na&na&na&na&na\\
-2&account length&1&73&100&100.3&127&243\\
-3&area code&na&na&na&na&na&na\\
-4&phone number&na&na&na&na&na&na\\
-5&internaltional plan&na&na&na&na&na&na\\
-6&voice mail plan&na&na&na&na&na&na\\
-7&umber vmail messages&0&0&0&7.75&17&52\\
-8&otal day minutes&0&143.7&180.1&180.3&216.2&351.5\\
-9&total day calls&0&87&100&100&113&165\\
-10&total day charge&0.00&24.43&30.62&30.65&36.75&59.76\\
-11&total eve minutes&0.00&166.4&201.0&200.6&234.1&363.7\\
-12&total eve calls&0.00&87.0&100.0&100.2&114.0&170.0\\
-13&total eve charge&0.00&14.14&17.09&17.05&19.90&30.91\\
-14&total night minutes&0.0&166.9&200.4&200.4&234.7&395\\
-15&total night calls&0.00&87.0&100.00&99.92&113.0&175.0\\
-16&total night charge&0.00&7.51&9.02&9.01&10.5&17.7\\
-17&total intl minutes&0.00&8.50&10.3&10.26&12.0&20.0\\
-18&total intl calls&0.00&3.00&4.00&4.435&6.00&20.0\\
-19&total intl charge&0.00&2.30&2.70&2.771&3.24&5.4\\
-20&number customer service calls&  0.00   &  1.00   &  1.00 & 1.57 & 2.00 & 9.00     \\
-		21& churn         & na    & na          & na       &na      & na          & na   \\
+	\begin{tabular}{lllllll}
+		Dimension & min & 1st Quart & median & mean & 3rd Quart & max \\
+state&na&na&na&na&na&na\\
+account length&1&73&100&100.3&127&243\\
+area code&na&na&na&na&na&na\\
+phone number&na&na&na&na&na&na\\
+internaltional plan&na&na&na&na&na&na\\
+voice mail plan&na&na&na&na&na&na\\
+umber vmail messages&0&0&0&7.75&17&52\\
+total day minutes&0&143.7&180.1&180.3&216.2&351.5\\
+total day calls&0&87&100&100&113&165\\
+total day charge&0.00&24.43&30.62&30.65&36.75&59.76\\
+total eve minutes&0.00&166.4&201.0&200.6&234.1&363.7\\
+total eve calls&0.00&87.0&100.0&100.2&114.0&170.0\\
+total eve charge&0.00&14.14&17.09&17.05&19.90&30.91\\
+total night minutes&0.0&166.9&200.4&200.4&234.7&395\\
+total night calls&0.00&87.0&100.00&99.92&113.0&175.0\\
+total night charge&0.00&7.51&9.02&9.01&10.5&17.7\\
+total intl minutes&0.00&8.50&10.3&10.26&12.0&20.0\\
+total intl calls&0.00&3.00&4.00&4.435&6.00&20.0\\
+total intl charge&0.00&2.30&2.70&2.771&3.24&5.4\\
+number customer service calls&  0.00   &  1.00   &  1.00 & 1.57 & 2.00 & 9.00     \\
+		churn         & na    & na          & na       &na      & na          & na   \\
 		\end{tabular}
 		\end{table}
 
 
-\section{Qualitative data analytics}
-TO understand the underlying reasons and motivations for churning by typically studying charts and plots.
+%\section{Qualitative data analytics}
+%TO understand the underlying reasons and motivations for churning by typically studying charts and plots.
+
+
+\section{Data-warehouse design}
+The churn data is loaded into tables in the MySQL relational database environment. A star schema is designed in the database to support the olap functionality in the front end. The star schema is structured as follows :
 
 
 
-\newpage
+\section{ETL process}
+
+
+\chapter{Development and evaluation of prediction models}
+\label{ch:depm}
+This chapter presents the progress in development and evaluation statistics of prediction models.
+
 \section{Models trained}
 
-In the chapter the models trained thus far are described
+In the chapter the models trained thus far are Decision tree and Support vector machine.
 
 But before the models are predicted the data set is divided into two 
 
@@ -163,7 +185,7 @@ and the statistics are~\ref{dt-1-stats}
 		\begin{figure}
 			\caption{Decision tree}
 			\label{dt-fig}
-			\hspace*{-1cm}
+			\hspace*{-3cm}
 			\includegraphics[width=18cm,height=20cm]{progress_presentaion/ppt_figures/churnDecisionTree}
 		\end{figure}
 
