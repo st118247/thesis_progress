@@ -26,7 +26,7 @@
 \contentsline {section}{\numberline {3.1}Research Methodology}{21}
 \contentsline {section}{\numberline {3.2}Data Preprocessing and Datawarehouse Development}{22}
 \contentsline {subsection}{\numberline {3.2.1}Data preprocessing}{22}
-\contentsline {subsection}{\numberline {3.2.2}Datawarehouse development}{22}
+\contentsline {subsection}{\numberline {3.2.2}Datawarehouse development}{23}
 \contentsline {section}{\numberline {3.3}Development and Evaluation of the Prediction Models}{24}
 \contentsline {subsection}{\numberline {3.3.1}Model Design}{24}
 \contentsline {subsection}{\numberline {3.3.2}Model Evaluations}{24}
@@ -38,9 +38,12 @@
 \contentsline {section}{\numberline {3.5}Timeline}{27}
 \contentsline {chapter}{\numberline {4} Data preprocessing \& data-warehouse}{28}
 \contentsline {section}{\numberline {4.1}Data collection}{28}
-\contentsline {section}{\numberline {4.2}Data preprocessing and transformation}{29}
-\contentsline {section}{\numberline {4.3}Data transformation}{30}
-\contentsline {section}{\numberline {4.4}Quantitative data analytics}{30}
+\contentsline {section}{\numberline {4.2}Meta-data evaluation}{28}
+\contentsline {section}{\numberline {4.3}Data cleaning}{29}
+\contentsline {section}{\numberline {4.4}Data transformation}{29}
+\contentsline {section}{\numberline {4.5}Quantitative data analytics}{30}
+\contentsline {section}{\numberline {4.6}Data-warehouse design}{31}
+\contentsline {section}{\numberline {4.7}ETL process}{31}
 \contentsline {chapter}{\numberline {5} Development and evaluation of prediction models}{32}
 \contentsline {section}{\numberline {5.1}Models trained}{32}
 \contentsline {subsection}{\numberline {5.1.1}Decision tree}{32}

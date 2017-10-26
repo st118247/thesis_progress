@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.3.3)  24 OCT 2017 13:48
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.3.3)  26 OCT 2017 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -259,6 +259,9 @@ Package subfig Warning: Your document class has a bad definition
  can't take effect on \endtable.
  Please complain to your document class author.
 
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
@@ -272,21 +275,33 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
-\c@KVtest=\count114
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2-> \vskip 10pt \setbox \@
+tempboxa \hbox {#1 #2} \ifdim \wd \@tempboxa >\hsize \captionspace \setbox \@te
+mpboxa \hbox {#1} \hangindent =\wd \@tempboxa \hangafter =0 \setbox \@tempboxa 
+\hbox {\llap {#1 }#2} \unhbox \@tempboxa \par \else \hbox to\hsize {\hfil \box 
+\@tempboxa \hfil } \fi .
+\c@ContinuedFloat=\count114
+Package caption Info: float package is loaded.
+)
+\c@KVtest=\count115
 \sf@farskip=\skip58
 \sf@captopadj=\dimen129
 \sf@capskip=\skip59
 \sf@nearskip=\skip60
-\c@subfigure=\count115
-\c@subfigure@save=\count116
-\c@lofdepth=\count117
-\c@subtable=\count118
-\c@subtable@save=\count119
-\c@lotdepth=\count120
+\c@subfigure=\count116
+\c@subfigure@save=\count117
+\c@lofdepth=\count118
+\c@subtable=\count119
+\c@subtable@save=\count120
+\c@lotdepth=\count121
 \sf@top=\skip61
 \sf@bottom=\skip62
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
@@ -307,7 +322,7 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tabulary/tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
-\TY@count=\count121
+\TY@count=\count122
 \TY@linewidth=\dimen130
 \tymin=\dimen131
 \tymax=\dimen132
@@ -327,16 +342,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip64
 \LTpre=\skip65
 \LTpost=\skip66
-\LTchunksize=\count122
+\LTchunksize=\count123
 \LTcapwidth=\dimen134
 \LT@head=\box30
 \LT@firsthead=\box31
 \LT@foot=\box32
 \LT@lastfoot=\box33
-\LT@cols=\count123
-\LT@rows=\count124
-\c@LT@tables=\count125
-\c@LT@chunks=\count126
+\LT@cols=\count124
+\LT@rows=\count125
+\c@LT@tables=\count126
+\c@LT@chunks=\count127
 \LT@p@ftn=\toks35
 )
 (/usr/share/texlive/texmf-dist/tex/latex/seqsplit/seqsplit.sty
@@ -371,7 +386,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-\c@dirtytalk@qdepth=\count127
+\c@dirtytalk@qdepth=\count128
 )
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
@@ -384,7 +399,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks36
 \XKV@tempa@toks=\toks37
 )
-\XKV@depth=\count128
+\XKV@depth=\count129
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -414,12 +429,12 @@ File: tc-xetex.def 2012/05/13 v1.0 Clipping driver for xetex
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count129
+\c@checkoddpage=\count130
 )
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box35
-\sift@deathcycles=\count130
+\sift@deathcycles=\count131
 \@vwid@loff=\dimen143
 \@vwid@roff=\dimen144
 ))
@@ -429,36 +444,38 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen145
 \enit@toks=\toks38
 \enit@inbox=\box36
-\enitdp@description=\count131
+\enitdp@description=\count132
 ) (./thesis.aux
 (./frontstuff.aux) (./intro.aux) (./literature.aux) (./methodology.aux)
-(./data_preprocessing.aux
-
-LaTeX Warning: Label `ch:dpdd' multiply defined.
-
-))
+(./data_preprocessing.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 57.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 59.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (./english.apc
 File: english.apc 2007/09/03 v4.00 apacite language file
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box37
 \openout2 = `frontstuff.aux'.
@@ -550,6 +567,10 @@ Overfull \hbox (4.6503pt too wide) in paragraph at lines 20--31
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 31.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 31.
 [1
 
 
@@ -611,8 +632,6 @@ File: figures/predictionioeventsever.png Graphic file (type QTm)
 File: figures/shinyscaling.png Graphic file (type QTm)
 
 <use  "figures/shinyscaling.png" > [11] [12] [13]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 175.
 File: figures/confusionmatrix.png Graphic file (type QTm)
 
 <use  "figures/confusionmatrix.png" > [14]
@@ -1337,13 +1356,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 File: figures/dataloadprocess.png Graphic file (type QTm)
- <use  "figures/dataloadprocess.png" >
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[22]
+ <use  "figures/dataloadprocess.png" > [22]
 File: figures/olap_start_schema.jpg Graphic file (type QTm)
- <use  "figures/olap_start_schema.jpg" > [23]
+
+<use  "figures/olap_start_schema.jpg" > [23]
 Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
@@ -1370,21 +1386,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--139
 
  (./data_preprocessing.tex
 \relax \fontsize {14.4}{15}\selectfont {Chapter} 4.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 9.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 8.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 11.
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 10.
 
-Overfull \hbox (0.96738pt too wide) in paragraph at lines 11--12
+Overfull \hbox (0.96738pt too wide) in paragraph at lines 10--11
 []\OT1/ptm/m/n/10.95 Data file \OT1/ptm/m/it/10.95 ``churn.all`` \OT1/ptm/m/n/1
 0.95 at lo-ca-tion $\OT1/pcr/m/sl/10.95 https : / / www . sgi . com / tech / ml
 c / db / churn . all$\OT1/ptm/m/n/10.95 . 
  []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 [28
 
@@ -1393,24 +1406,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] [29] [30] [31]
 \relax \fontsize {14.4}{15}\selectfont {Chapter} 5.
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 166.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 199.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 166.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 199.
+ [32
+
+]
 File: progress_presentaion/ppt_figures/churnDecisionTree.pdf Graphic file (type
  QTm)
 
-<use  "progress_presentaion/ppt_figures/churnDecisionTree.pdf" > [32
-
-] [33]
-[34] [35] [36]
+<use  "progress_presentaion/ppt_figures/churnDecisionTree.pdf" > [33] [34]
+[35] [36]
 File: progress_presentaion/ppt_figures/icpcr_1_dash.png Graphic file (type QTm)
 
  <use  "progress_presentaion/ppt_figures/icpcr_1_dash.png" >
-Overfull \hbox (162.63766pt too wide) in paragraph at lines 290--292
+Overfull \hbox (162.63766pt too wide) in paragraph at lines 323--325
 []|  [] 
  []
 
@@ -1418,7 +1432,7 @@ Overfull \hbox (162.63766pt too wide) in paragraph at lines 290--292
 File: progress_presentaion/ppt_figures/icpcr_2_dash.png Graphic file (type QTm)
 
  <use  "progress_presentaion/ppt_figures/icpcr_2_dash.png" >
-Overfull \hbox (53.76938pt too wide) in paragraph at lines 298--300
+Overfull \hbox (53.76938pt too wide) in paragraph at lines 331--333
 []|  [] 
  []
 
@@ -1426,7 +1440,7 @@ Overfull \hbox (53.76938pt too wide) in paragraph at lines 298--300
 File: progress_presentaion/ppt_figures/icpcr_3_dash.png Graphic file (type QTm)
 
  <use  "progress_presentaion/ppt_figures/icpcr_3_dash.png" >
-Overfull \hbox (53.76938pt too wide) in paragraph at lines 306--308
+Overfull \hbox (53.76938pt too wide) in paragraph at lines 339--341
 []|  [] 
  []
 
@@ -1434,7 +1448,7 @@ Overfull \hbox (53.76938pt too wide) in paragraph at lines 306--308
 File: progress_presentaion/ppt_figures/icpcr_4_dash.png Graphic file (type QTm)
 
  <use  "progress_presentaion/ppt_figures/icpcr_4_dash.png" >
-Overfull \hbox (53.76938pt too wide) in paragraph at lines 314--316
+Overfull \hbox (53.76938pt too wide) in paragraph at lines 347--349
 []|  [] 
  []
 
@@ -1442,7 +1456,7 @@ Overfull \hbox (53.76938pt too wide) in paragraph at lines 314--316
 File: progress_presentaion/ppt_figures/icpcr_5_dash.png Graphic file (type QTm)
 
  <use  "progress_presentaion/ppt_figures/icpcr_5_dash.png" >
-Overfull \hbox (53.76938pt too wide) in paragraph at lines 322--324
+Overfull \hbox (53.76938pt too wide) in paragraph at lines 355--357
 []|  [] 
  []
 
@@ -1450,7 +1464,7 @@ Overfull \hbox (53.76938pt too wide) in paragraph at lines 322--324
 File: progress_presentaion/ppt_figures/icpcr_6_dash.png Graphic file (type QTm)
 
  <use  "progress_presentaion/ppt_figures/icpcr_6_dash.png" >
-Overfull \hbox (53.76938pt too wide) in paragraph at lines 330--332
+Overfull \hbox (53.76938pt too wide) in paragraph at lines 363--365
 []|  [] 
  []
 
@@ -1476,18 +1490,14 @@ Underfull \hbox (badness 3179) in paragraph at lines 400--407
  []
 
 ) [44] (./thesis.aux (./frontstuff.aux) (./intro.aux) (./literature.aux)
-(./methodology.aux) (./data_preprocessing.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(./methodology.aux) (./data_preprocessing.aux)) ) 
 Here is how much of TeX's memory you used:
- 5635 strings out of 493638
- 80899 string characters out of 6146797
- 189450 words of memory out of 5000000
- 8790 multiletter control sequences out of 15000+600000
- 18789 words of font info for 66 fonts, out of 8000000 for 9000
+ 6144 strings out of 493638
+ 89822 string characters out of 6146797
+ 199327 words of memory out of 5000000
+ 9294 multiletter control sequences out of 15000+600000
+ 19870 words of font info for 68 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 37i,10n,38p,1003b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,10n,86p,1003b,624s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on thesis.pdf (48 pages).

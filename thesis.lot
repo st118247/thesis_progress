@@ -1,11 +1,10 @@
-\contentsline {table}{\numberline {1.1}{\ignorespaces Approx. subscriber counts(in millions) of select companies in Indian telecom industry.}}{2}
-\contentsline {table}{\numberline {2.1}{ Previous literature review}}{16}
-\contentsline {table}{\numberline {4.1}{\ignorespaces Dimension descriptions}}{28}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Dimension descriptions contd.}}{29}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Dimension analysis}}{31}
-\contentsline {table}{\numberline {5.1}{\ignorespaces Decision tree confusion matrix}}{32}
-\contentsline {table}{\numberline {5.2}{\ignorespaces DT-1 Stats}}{32}
-\contentsline {table}{\numberline {5.3}{\ignorespaces SVM Linear confusion matrix}}{35}
-\contentsline {table}{\numberline {5.4}{\ignorespaces SVM Linear Stats}}{35}
-\contentsline {table}{\numberline {5.5}{\ignorespaces SVM Radial confusion matrix}}{36}
-\contentsline {table}{\numberline {5.6}{\ignorespaces SVM Radial Stats}}{36}
+\contentsline {table}{\numberline {1.1}{\ignorespaces Approx. subscriber counts(in millions) of select companies in Indian telecom industry.\relax }}{2}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Previous literature review\relax }}{16}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Meta data description\relax }}{28}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Dimension analysis\relax }}{30}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Decision tree confusion matrix\relax }}{32}
+\contentsline {table}{\numberline {5.2}{\ignorespaces DT-1 Stats\relax }}{33}
+\contentsline {table}{\numberline {5.3}{\ignorespaces SVM Linear confusion matrix\relax }}{35}
+\contentsline {table}{\numberline {5.4}{\ignorespaces SVM Linear Stats\relax }}{35}
+\contentsline {table}{\numberline {5.5}{\ignorespaces SVM Radial confusion matrix\relax }}{36}
+\contentsline {table}{\numberline {5.6}{\ignorespaces SVM Radial Stats\relax }}{36}
