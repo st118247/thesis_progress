@@ -13,7 +13,7 @@ The data was collected from the open source data available at SGI MLC++ website 
 
 \section{Meta-data evaluation}
 
-Collected over a period of time it lists whether if the customer has churned or retained.
+The meta data is the description of the data dimensions. The dimesnsions 
 The data has 21 dimensions. They are described in table~\ref{metadata}.
 
 \begin{center}
@@ -152,6 +152,9 @@ number customer service calls&  0.00   &  1.00   &  1.00 & 1.57 & 2.00 & 9.00   
 
 
 \section{Data-warehouse design}
+
+To develop the functionalities of Data-warehouse we performed dimensional modeling and fact table modeling
+
 The churn data is loaded into tables in the MySQL relational database environment. A star schema is designed in the database to support the olap functionality in the front end. The star schema is structured as follows :
 
 
